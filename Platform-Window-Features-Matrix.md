@@ -15,4 +15,4 @@
 | minimized        | WS_MINIMIZE      |                   |                  |
 | maximized        | WS_MAXIMIZE      |                   |                  |
 | fullscreen       | custom function  |   fullscreen      |                  |
-| alpha    | alpha, DWM func  |   http://stackoverflow.com/questions/3908565/how-to-make-gtk-window-background-transparent|                  |
+| alpha    | alpha, DWM func  |   [StackOverflow](http://stackoverflow.com/questions/3908565/how-to-make-gtk-window-background-transparent)|                  |
