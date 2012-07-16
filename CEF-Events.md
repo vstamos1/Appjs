@@ -1,48 +1,55 @@
-# Display Handler
-OnNavStateChange
-OnAddressChange
-OnContentsSizeChange
-OnTitleChange
-OnTooltip //changeable text
-OnStatusMessage
-OnConsoleMessage
+## Display Handler
 
-# Lifespan Handler
-OnBeforePopup
-OnAfterCreated
-RunModal
-DoClose
-OnBeforeClose
+* OnNavStateChange
+* OnAddressChange
+* OnContentsSizeChange
+* OnTitleChange
+* OnTooltip //changeable text
+* OnStatusMessage
+* OnConsoleMessage
 
-# Focus Handler
-OnTakeFocus
-OnSetFocus
-OnFocusedNodeChanged
+## Lifespan Handler
 
-# Load Handler
-OnLoadStart
-OnLoadEnd
-OnLoadError
+* OnBeforePopup
+* OnAfterCreated
+* RunModal
+* DoClose
+* OnBeforeClose
 
-# Menu Handler
-OnBeforeMenu
-GetMenuLabel //changeable text
-OnMenuAction
+## Focus Handler
 
-# Render handler
-GetViewRect
-GetScreenRect
-GetScreenPoint
-OnPopupShow
-OnPopupSize
-OnPaint
-OnCursorChange
+* OnTakeFocus
+* OnSetFocus
+* OnFocusedNodeChanged
 
-# Request Handler
-OnBeforeBrowse
-OnBeforeResourceLoad
-OnResourceRedirect
-OnResourceResponse
-OnProtocolExecution
-GetDownloadHandler
-GetAuthCredentials
+## Load Handler
+
+* OnLoadStart
+* OnLoadEnd
+* OnLoadError
+
+## Menu Handler
+
+* OnBeforeMenu
+* GetMenuLabel //changeable text
+* OnMenuAction
+
+## Render handler
+
+* GetViewRect
+* GetScreenRect
+* GetScreenPoint
+* OnPopupShow
+* OnPopupSize
+* OnPaint
+* OnCursorChange
+
+## Request Handler
+
+* OnBeforeBrowse
+* OnBeforeResourceLoad
+* OnResourceRedirect
+* OnResourceResponse
+* OnProtocolExecution
+* GetDownloadHandler
+* GetAuthCredentials
