@@ -104,7 +104,7 @@ window.on('ready', function(){
 });
 ```
 
-### Adding an f12 keybind for showing devtools
+### Show devtools with F12 keybind
 
 ```javascript
 var app = require('appjs');
