@@ -36,6 +36,48 @@ function init($, document){
 }
 ```
 
+
+### Adding node's module, require, and process to the browser global object
+
+```javascript
+var app = require('appjs');
+
+app.router.get('/', function(request, response){
+  response.send('');
+});
+
+var window = app.createWindow();
+
+window.on('ready', function(){
+  window.frame.show();
+  window.require = require;
+  window.process = process;
+  window.module = module;
+});
+```
+
+### Show devtools with F12 keybind
+
+```javascript
+var app = require('appjs');
+
+app.router.get('/', function(request, response){
+  response.send('');
+});
+
+var window = app.createWindow();
+window.on('ready', function(){
+  window.frame.show();
+  window.addEventListener('keydown', function(e){
+    if (e.keyIdentifier === 'F12') {
+      window.frame.openDevTools();
+    }
+  });
+});
+```
+
+
+
 ### Extending node's module system into the browser context
 ```javascript
 require('appjs').serveFilesFrom(__dirname + '/content').createWindow().on('ready', function(){
@@ -82,44 +124,5 @@ require('appjs').serveFilesFrom(__dirname + '/content').createWindow().on('ready
       return Function.apply(null, argNames).apply(this.exports, args);
     }
   })().call(this, require, process, Buffer);
-});
-```
-
-### Adding node's module, require, and process to the browser global object
-
-```javascript
-var app = require('appjs');
-
-app.router.get('/', function(request, response){
-  response.send('');
-});
-
-var window = app.createWindow();
-
-window.on('ready', function(){
-  window.frame.show();
-  window.require = require;
-  window.process = process;
-  window.module = module;
-});
-```
-
-### Show devtools with F12 keybind
-
-```javascript
-var app = require('appjs');
-
-app.router.get('/', function(request, response){
-  response.send('');
-});
-
-var window = app.createWindow();
-window.on('ready', function(){
-  window.frame.show();
-  window.addEventListener('keydown', function(e){
-    if (e.keyIdentifier === 'F12') {
-      window.frame.openDevTools();
-    }
-  });
 });
 ```
