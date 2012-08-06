@@ -65,12 +65,11 @@ appjs.router.get('/', function(request, response){
   response.send('');
 });
 
-var window = appjs.createWindow();
-window.on('ready', function(){
-  window.frame.show();
-  window.addEventListener('keydown', function(e){
+appjs.createWindow().on('ready', function(){
+  this.frame.show();
+  this.addEventListener('keydown', function(e){
     if (e.keyIdentifier === 'F12') {
-      window.frame.openDevTools();
+      this.frame.openDevTools();
     }
   });
 });
