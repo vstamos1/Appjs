@@ -80,7 +80,10 @@ window.on('ready', function(){
 
 ### Extending node's module system into the browser context
 ```javascript
-require('appjs').serveFilesFrom(__dirname + '/content').createWindow().on('ready', function(){
+require('appjs')
+.serveFilesFrom(__dirname + '/content')
+.createWindow()
+.on('ready', function(){
   this.frame.show();
   this.frame.center();
   this.Function('return '+function(require, process, Buffer){
