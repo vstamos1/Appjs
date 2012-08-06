@@ -40,13 +40,13 @@ function init($, document){
 ### Adding node's module, require, and process to the browser global object
 
 ```javascript
-var app = require('appjs');
+var appjs = require('appjs');
 
-app.router.get('/', function(request, response){
+appjs.router.get('/', function(request, response){
   response.send('');
 });
 
-var window = app.createWindow();
+var window = appjs.createWindow();
 
 window.on('ready', function(){
   window.frame.show();
@@ -59,13 +59,13 @@ window.on('ready', function(){
 ### Show devtools with F12 keybind
 
 ```javascript
-var app = require('appjs');
+var appjs = require('appjs');
 
-app.router.get('/', function(request, response){
+appjs.router.get('/', function(request, response){
   response.send('');
 });
 
-var window = app.createWindow();
+var window = appjs.createWindow();
 window.on('ready', function(){
   window.frame.show();
   window.addEventListener('keydown', function(e){
