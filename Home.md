@@ -5,15 +5,10 @@ Example dump that needs organizing.
 
 ```javascript
 var fs = require('fs'),
-    appjs = module.exports = require('appjs');
+    appjs = require('appjs');
 
 var window = appjs.createWindow({
   url: 'http://appjs.org'
-});
-
-window.on('create', function(){
-  window.frame.show();
-  window.frame.center();
 });
 
 window.on('ready', function(){
