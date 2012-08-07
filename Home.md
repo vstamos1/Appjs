@@ -134,7 +134,6 @@ var express = require('express'), // express 2.5.9
     appjs = require('appjs'),
     utils = require('util');
 
-
 // Create express server for routing
 var appRouter = express.createServer();
 appRouter.use(express.bodyParser());
@@ -169,8 +168,6 @@ appRouter.get('/page/:page_id/posts/:post_id', function(req, res, next){
   }
 });
 
-
-
 /**
  * Setup AppJS
  */
@@ -184,7 +181,6 @@ var window = appjs.createWindow({
   height: 460,
   icons : __dirname + '/content/icons'
 });
-
 
 // show the window after initialization
 window.on('create', function(){
