@@ -38,7 +38,7 @@ window.on('ready', function(){
 var appjs = require('appjs');
 
 appjs.router.get('/', function(request, response){
-  response.send(200. 'hello');
+  response.send(200, 'hello');
 });
 
 var window = appjs.createWindow();
@@ -57,7 +57,7 @@ window.on('ready', function(){
 var appjs = require('appjs');
 
 appjs.router.get('/', function(request, response){
-  response.send(200. 'hello');
+  response.send(200, 'hello');
 });
 
 appjs.createWindow().on('ready', function(){
