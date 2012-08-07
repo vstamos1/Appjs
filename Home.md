@@ -16,24 +16,21 @@ window.on('ready', function(){
   var script = document.createElement('script');
   script.src = 'http://code.jquery.com/jquery-1.7.2.min.js';
   script.onload = function(){
+    var $ = window.$;
     document.body.removeChild(script);
-    init(window.$, document);
+
+    var links = [];
+    $('a').each(function(i, el){
+      links.push({
+        text: el.textContent.trim(),
+        href: el.href.trim()
+      });
+    });
+    fs.writeFileSync('./links.json', JSON.stringify(links, null, '  '));
+    appjs.exit();
   };
   document.body.appendChild(script);
 });
-
-
-function init($, document){
-  $("<h1>I'M IN YOUR WEBSITE INJECTING INTO YOUR CODES</h1>").prependTo(document.body);
-  var links = [];
-  $('a').each(function(i, el){
-    links.push({
-      text: el.textContent.trim(),
-      href: el.href.trim()
-    });
-  });
-  fs.writeFileSync('./links.json', JSON.stringify(links, null, '  '));
-}
 ```
 
 
