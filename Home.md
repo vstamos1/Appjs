@@ -78,8 +78,7 @@ require('appjs')
  .serveFilesFrom(__dirname + '/content')
  .createWindow()
  .on('ready', function(){
-  this.frame.show();
-  this.frame.center();
+  this.frame.show().center();
   this.Function('return '+function(require, process, Buffer){
     var Module = require('module'),
         path = require('path'),
