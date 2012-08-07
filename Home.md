@@ -154,8 +154,8 @@ appRouter.all('/page/*', function(req, res, next){
 // Routing for view posts on a blog page 
 appRouter.get('/page/:page_id/posts/:post_id', function(req, res, next){
   if (req.params.page_id && req.params.post_id) {
-    var page_id = parseInt( req.params.page_id, 10 );
-    var post_id = parseInt( req.params.post_id, 10 );
+    var page_id = parseInt(req.params.page_id, 10);
+    var post_id = parseInt(req.params.post_id, 10);
     res.send(200, "You selected page " + page_id + " and post number " + post_id);
   } else {
     res.send(412, "You should select a correct page_id and post_id");
