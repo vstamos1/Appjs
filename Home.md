@@ -7,9 +7,7 @@ Example dump that needs organizing.
 var fs = require('fs'),
     appjs = require('appjs');
 
-var window = appjs.createWindow({
-  url: 'http://appjs.org'
-});
+var window = appjs.createWindow('http://appjs.org');
 
 window.on('ready', function(){
   var document = window.document;
