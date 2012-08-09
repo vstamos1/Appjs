@@ -1,7 +1,7 @@
 # Examples
 Example dump that needs organizing.
 
-# Use DOM events to coordinate execution and using Node's process and require with the DOM
+### Use DOM events to coordinate execution and using Node's process and require with the DOM
 __app.js__
 ```javascript
 var appjs = require('appjs');
@@ -61,6 +61,8 @@ addEventListener('app-ready', function(e){
 });
 ```
 
+***
+
 ### Injecting jQuery into a page and scraping links
 
 ```javascript
@@ -92,6 +94,8 @@ window.on('ready', function(){
 ```
 
 
+***
+
 ### Adding node's module, require, and process to the browser global object
 
 ```javascript
@@ -110,6 +114,8 @@ window.on('ready', function(){
   window.module = module;
 });
 ```
+
+***
 
 ### Show devtools with F12 keybind
 
@@ -131,6 +137,7 @@ appjs.createWindow().on('ready', function(){
 ```
 
 
+***
 
 ### Extending node's module system into the browser context
 ```javascript
@@ -182,6 +189,10 @@ require('appjs')
   })().call(this, require, process, Buffer);
 });
 ```
+
+
+***
+
 ### Using express to handle local http requests
 ```javascript
 var express = require('express'), // express 2.5.9
