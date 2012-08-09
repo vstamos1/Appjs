@@ -23,7 +23,7 @@ window.on('ready', function(){
   window.dispatchEvent(new window.Event('app-ready'));
 });
 ```
-__./content/index.html___
+__./content/index.html__
 ```html
 <!doctype html>
 <html>
