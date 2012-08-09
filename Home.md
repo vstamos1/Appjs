@@ -22,6 +22,7 @@ window.on('ready', function(){
 
   window.dispatchEvent(new window.Event('app-ready'));
 });
+```
 __./content/index.html___
 ```html
 <!doctype html>
@@ -42,7 +43,6 @@ __./content/index.html___
   </body>
 </html>
 ```
-
 __./content/index.js__
 ```javascript
 addEventListener('app-ready', function(e){
