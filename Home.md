@@ -38,12 +38,12 @@ __./content/index.html__
       <ul id="paths"></ul>
     </div>
 
-    <script src="index.js"></script>
+    <script src="browser-main.js"></script>
 
   </body>
 </html>
 ```
-__./content/index.js__
+__./content/browser-main.js__
 ```javascript
 addEventListener('app-ready', function(e){
   var fs   = require('fs'),
