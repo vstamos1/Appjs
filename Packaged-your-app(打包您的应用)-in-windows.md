@@ -17,7 +17,7 @@ All you need to edit is the index.html file from data\content folder and link to
 
 The node_modules folder contains all the dependencies which are required to run app.js.
 ---(thanks  fibric)
-So now you can edit a .BAT file,and change it to .exe([Q[Quick Batch File Compiler](http://www.abyssmedia.com/quickbfc/) ,something software like this can do that,with you cool icon)
+So now you can edit a .BAT file,and change it to .exe([Quick Batch File Compiler](http://www.abyssmedia.com/quickbfc/) ,something software like this can do that,with you cool icon)
 
 So now you can use VS to create a setup project, you simply create a setup project, 'appjs' file folder drag and drop to the project generates can be very simple.You can easily do.(The first time I did it :p).
 
