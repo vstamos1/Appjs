@@ -8,7 +8,8 @@ data\bin\node.exe --harmony data\app.js
 ,but not
 ```Batch
 data\bin\node.exe data\app.js
-```,because it uses ECMAScript Harmony features internally.
+```
+,because it uses ECMAScript Harmony features internally.
 ---(thanks  Mithgol)
 ***
 But for short I would recommend to download the pre-build packages from here: 30-second-quickstart (find the linked Windows package - I assume you are running on Windows because you often mention app.exe).
