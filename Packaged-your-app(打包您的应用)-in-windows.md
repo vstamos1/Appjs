@@ -1,7 +1,11 @@
 Here supplement https://github.com/appjs/appjs/blob/master/docs/building.md document.
 Here is a question like [this](https://github.com/appjs/appjs/issues/147)
 ***
-View you app with commend'data\bin\node.exe --harmony data\app.js',but not'data\bin\node.exe data\app.js',because it uses ECMAScript Harmony features internally.
+View you app with commend
+```javascript
+data\bin\node.exe --harmony data\app.js
+```
+,but not'data\bin\node.exe data\app.js',because it uses ECMAScript Harmony features internally.
 ---(thanks  Mithgol)
 ***
 But for short I would recommend to download the pre-build packages from here: 30-second-quickstart (find the linked Windows package - I assume you are running on Windows because you often mention app.exe).
