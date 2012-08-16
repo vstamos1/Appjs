@@ -14,7 +14,7 @@ data\bin\node.exe data\app.js
 ***
 ```
 But for short I would recommend to download the pre-build packages from here:
-[30-second-quick](https://github.com/appjs/appjs#30-second-quickstart)start (find the linked Windows package - I assume you are running on Windows because you often mention app.exe).
+ [30-second-quick](https://github.com/appjs/appjs#30-second-quickstart) start (find the linked Windows package - I assume you are running on Windows because you often mention app.exe).
 
 Then simple use the content of your downloaded pre-build package as a scaffold for your projects.
 
