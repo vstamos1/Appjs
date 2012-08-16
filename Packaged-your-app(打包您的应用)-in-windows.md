@@ -2,7 +2,7 @@ Here supplement https://github.com/appjs/appjs/blob/master/docs/building.md docu
 Here is a question like [this](https://github.com/appjs/appjs/issues/147)
 ***
 View you app with commend
-```javascript
+```Batch
 data\bin\node.exe --harmony data\app.js
 ```
 ,but not'data\bin\node.exe data\app.js',because it uses ECMAScript Harmony features internally.
