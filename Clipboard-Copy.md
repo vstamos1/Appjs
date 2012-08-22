@@ -1,4 +1,6 @@
 
+**WARNING: IF YOUR APPLICATION RECEIVE DATA FROM THE INTERNET AND IF YOU LET FORGET A CROSS SIDE SCRIPTING VULNERABILITY, IMPLEMENTING THIS FEATURE CAN BE VERY DANGEROUS**
+
 First, you have to disable security when you create the window in appjs.js 
 
 ```javascript
@@ -31,4 +33,3 @@ Then, add the function below in your main js code
 ```
 
 Now you can use Clipboard.copy('sometext') (bind a button or Ctrl+C ? as you want)
-
