@@ -26,6 +26,7 @@ With AppJS you can develop desktop tools and applications using the same librari
 
 * Chrome related
   * [Show Chrome Console with F12 keybind](./Show-devtools-with-F12-keybind)
+  * [Copy text in the OS clipboard](./Clipboard-Copy)
 
 ---
 
