@@ -11,7 +11,7 @@
   * [Injecting jQuery into a page and scraping links](./Injecting-jQuery-into-a-page-and-scraping-links)
   * [Using express to handle local http requests](./Using-express-to-handle-local-http-requests)
 
-* Tips
+* Chrome related
   * [Show devtools with F12 keybind](./Show-devtools-with-F12-keybind)
 
 ***
