@@ -1,6 +1,6 @@
 # Welcome to AppJS
 
-AppJS is an SDK to develop desktop applications using Node.js melded with Chromium. With AppJS you can develop desktop tools and applications using the same libraries and knowledge used to build websites. You get all the following in one package:
+**AppJS ** is an SDK to develop **desktop applications** using **Node.js melded with Chromium**. With AppJS you can develop desktop tools and applications using the same libraries and knowledge used to build websites and web applications. You get all the following in one package:
 
 * JS, HTML5, CSS, SVG, WebGL provided by Chromium
 * mature http/https servers and client APIs - Node
@@ -8,7 +8,7 @@ AppJS is an SDK to develop desktop applications using Node.js melded with Chromi
 * sandboxed code execution environements virtual machines - Node
 * tools for exposing native C++ bindings to JavaScript- Node
 
-IRC: #appjs on freenode , you are welcome !
+**_IRC: #appjs on freenode , you are welcome !_**
 
 ---
 ### Code samples
