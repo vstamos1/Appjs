@@ -8,6 +8,8 @@ AppJS is an SDK to develop desktop applications using Node.js melded with Chromi
 * sandboxed code execution environements virtual machines - Node
 * tools for exposing native C++ bindings to JavaScript- Node
 
+IRC: #appjs on freenode , you are welcome !
+
 ---
 ### Code samples
 
