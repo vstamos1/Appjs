@@ -1,5 +1,9 @@
 # Welcome to AppJS
 
+### What is AppJS ?
+[TODO]
+
+---
 ### Code samples
 
 * Deploying nodejs in appjs
@@ -14,4 +18,19 @@
 * Chrome related
   * [Show Chrome Console with F12 keybind](./Show-devtools-with-F12-keybind)
 
-***
+---
+
+### Screenshots
+[TODO]
+
+---
+
+### Limitations
+[TODO]
+
+---
+
+### AppJS and rich js frameworks already tested
+
+  * [Qooxdoo](http://www.gooxdoo.org/)
+  * [ExtJS/Sencha](http://www.sencha.org/)
