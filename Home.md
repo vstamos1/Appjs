@@ -25,10 +25,6 @@
 
 ---
 
-### Limitations
-[TODO]
-
----
 
 ### AppJS and rich js frameworks already tested
 
