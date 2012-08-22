@@ -12,6 +12,6 @@
   * [Using express to handle local http requests](./Using-express-to-handle-local-http-requests)
 
 * Chrome related
-  * [Show devtools with F12 keybind](./Show-devtools-with-F12-keybind)
+  * [Show Chrome Console with F12 keybind](./Show-devtools-with-F12-keybind)
 
 ***
