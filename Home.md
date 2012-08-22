@@ -1,4 +1,5 @@
-# Welcome to AppJS #
+
+# Welcome to AppJS
 
 ### Code samples
 
