@@ -16,17 +16,17 @@ With AppJS you can develop desktop tools and applications using the same librari
 ### Code samples
 
 * Deploying nodejs in appjs
-  * [Use DOM events to coordinate execution and using Nodejs's "process" and "require" with the DOM](./Node's-"process"-and-"require"-in-your-app)
-  * [Adding nodejs's "module", "require", and "process" to the browser global object](./Add-Node-in-the-browser-global-object)
-  * [Extending nodejs's module system into the browser context](./Extending-node's-module-system-into-the-browser-context)
+  * [Use DOM events to coordinate execution and using Nodejs's "process" and "require" with the DOM](./wiki/Node's-"process"-and-"require"-in-your-app)
+  * [Adding nodejs's "module", "require", and "process" to the browser global object](./wiki/Add-Node-in-the-browser-global-object)
+  * [Extending nodejs's module system into the browser context](./wiki/Extending-node's-module-system-into-the-browser-context)
 
 * Using nodejs, node modules, and javascript in appjs
-  * [Injecting jQuery into a page and scraping links](./Injecting-jQuery-into-a-page-and-scraping-links)
-  * [Using express to handle local http requests](./Using-express-to-handle-local-http-requests)
+  * [Injecting jQuery into a page and scraping links](./wiki/Injecting-jQuery-into-a-page-and-scraping-links)
+  * [Using express to handle local http requests](./wiki/Using-express-to-handle-local-http-requests)
 
 * Chrome related
-  * [Show Chrome Console with F12 keybind](./Show-devtools-with-F12-keybind)
-  * [Copy text in the OS clipboard](./Clipboard-Copy)
+  * [Show Chrome Console with F12 keybind](./wiki/Show-devtools-with-F12-keybind)
+  * [Copy text in the OS clipboard](./wiki/Clipboard-Copy)
 
 ---
 
