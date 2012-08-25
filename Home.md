@@ -38,7 +38,7 @@ With AppJS you can develop desktop tools and applications using the same librari
 
 ### AppJS and Rich Internet Application frameworks already tested
 
-  * [Qooxdoo](http://www.gooxdoo.org/)
+  * [Qooxdoo](http://www.qooxdoo.org/)
   * [ExtJS/Sencha](http://www.sencha.org/)
 
 
