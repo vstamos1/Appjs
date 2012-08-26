@@ -21,6 +21,7 @@ With AppJS you can develop desktop tools and applications using the same librari
   * [Extending nodejs's module system into the browser context](./wiki/Extending-node's-module-system-into-the-browser-context)
 
 * Using nodejs, node modules, and javascript in appjs
+  * [Install and use a third party nodejs module](./wiki/Install-and-use-a-third-party-nodejs-module)
   * [Injecting jQuery into a page and scraping links](./wiki/Injecting-jQuery-into-a-page-and-scraping-links)
   * [Using express to handle local http requests](./wiki/Using-express-to-handle-local-http-requests)
 
