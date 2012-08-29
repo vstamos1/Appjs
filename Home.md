@@ -19,22 +19,18 @@ With AppJS you can develop desktop tools and applications using the same librari
   * [Use DOM events to coordinate execution and using Nodejs's "process" and "require" with the DOM](./wiki/Node's-"process"-and-"require"-in-your-app)
   * [Adding nodejs's "module", "require", and "process" to the browser global object](./wiki/Add-Node-in-the-browser-global-object)
   * [Extending nodejs's module system into the browser context](./wiki/Extending-node's-module-system-into-the-browser-context)
+  * [Node's console into Chrome's console](./wiki/Node's-console-into-Chrome's-console)
+
 
 * Using nodejs, node modules, and javascript in appjs
   * [Install and use a third party nodejs module](./wiki/Install-and-use-a-third-party-nodejs-module)
   * [Injecting jQuery into a page and scraping links](./wiki/Injecting-jQuery-into-a-page-and-scraping-links)
   * [Using express to handle local http requests](./wiki/Using-express-to-handle-local-http-requests)
 
+
 * Chrome related
   * [Show Chrome Console with F12 keybind](./wiki/Show-devtools-with-F12-keybind)
   * [Copy text in the OS clipboard](./wiki/Clipboard-Copy)
-
----
-
-### Screenshots
-[TODO]
-
----
 
 
 ### AppJS and Rich Internet Application frameworks already tested
