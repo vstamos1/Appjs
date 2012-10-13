@@ -36,7 +36,7 @@ With AppJS you can develop desktop tools and applications using the same librari
 
 **HTML5**
   * [Drag & Drop from desktop](./wiki/HTML5:-Drag-&-Drop-from-Desktop)
-  * [Read local files](./wiki/HTML5:-Read-local-files)
+  * [Read local files](./wiki/HTML5:-Read-local-files) (Drag & Drop based)
 
 ---
 ### AppJS and Rich Internet Application frameworks already tested
