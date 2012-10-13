@@ -1,4 +1,3 @@
-
 ```javascript
 var drop = function(event) {
     event.preventDefault();
