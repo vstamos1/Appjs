@@ -12,8 +12,6 @@ With AppJS you can develop desktop tools and applications using the same librari
 
 **_IRC: #appjs on freenode , you are welcome !_**
 
-Map of stars ? http://jrvis.com/red-dwarf/?user=appjs&repo=appjs
-
 ---
 ### Code samples
 
@@ -48,3 +46,5 @@ Map of stars ? http://jrvis.com/red-dwarf/?user=appjs&repo=appjs
 
 
 ---
+
+From where are you starring ? http://jrvis.com/red-dwarf/?user=appjs&repo=appjs
