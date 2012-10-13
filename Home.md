@@ -27,9 +27,12 @@ With AppJS you can develop desktop tools and applications using the same librari
   * [Using express to handle local http requests](./wiki/Using-express-to-handle-local-http-requests)
 
 
-**Tips**
+**Debugging**
   * [Show Chrome Console with F12 keybind](./wiki/Show-devtools-with-F12-keybind)
+
+**Clipboard**
   * [Copy text in the OS clipboard](./wiki/Clipboard-Copy)
+  * [Paste text in the OS clipboard](./wiki/Clipboard-Copy)
 
 
 ### AppJS and Rich Internet Application frameworks already tested
