@@ -35,7 +35,7 @@ With AppJS you can develop desktop tools and applications using the same librari
   * [Paste text in the OS clipboard](./wiki/Clipboard-Paste)
 
 **HTML5**
-  * [Drag & Drop from desktop](./wiki/DragnDropFromDesktop)
+  * [Drag & Drop from desktop](./wiki/Drag-&-Drop-from-Desktop)
 
 ---
 ### AppJS and Rich Internet Application frameworks already tested
