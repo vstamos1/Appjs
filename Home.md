@@ -15,7 +15,7 @@ With AppJS you can develop desktop tools and applications using the same librari
 ---
 ### Code samples
 
-* Deploying nodejs in appjs
+**Deploying nodejs in appjs**
   * [Use DOM events to coordinate execution and using Nodejs's "process" and "require" with the DOM](./wiki/Node's-"process"-and-"require"-in-your-app)
   * [Adding nodejs's "module", "require", and "process" to the browser global object](./wiki/Add-Node-in-the-browser-global-object)
   * [Extending nodejs's module system into the browser context](./wiki/Extending-node's-module-system-into-the-browser-context)
