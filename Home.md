@@ -37,6 +37,7 @@ With AppJS you can develop desktop tools and applications using the same librari
 **HTML5**
   * [Drag & Drop from desktop](./wiki/DragnDropFromDesktop)
 
+---
 ### AppJS and Rich Internet Application frameworks already tested
 
   * [Qooxdoo](http://www.qooxdoo.org/)
