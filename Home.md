@@ -4,11 +4,11 @@
 
 With AppJS you can develop desktop tools and applications using the same libraries and knowledge used to build websites and web applications. You get all the following in one package:
 
-* JS, HTML5, CSS, SVG, WebGL provided by Chromium
-* mature http/https servers and client APIs - Node
-* filesystem, dns, cryptography, subprocesses, OS APIs - Node
-* sandboxed code execution environements virtual machines - Node
-* tools for exposing native C++ bindings to JavaScript- Node
+* JS, HTML5, CSS, SVG, WebGL — by Chromium
+* mature HTTP/HTTPS servers and client APIs — by Node.js
+* filesystem, DNS, cryptography, subprocesses, OS APIs — by Node.js
+* sandboxed code execution environements, virtual machines — by Node.js
+* tools for exposing native C++ bindings to JavaScript — by Node.js
 
 **_IRC: #appjs on freenode , you are welcome !_**
 
