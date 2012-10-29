@@ -47,4 +47,4 @@ With AppJS you can develop desktop tools and applications using the same librari
 
 ---
 
-From where are you starring ? http://jrvis.com/red-dwarf/?user=appjs&repo=appjs
+[Map view](http://jrvis.com/red-dwarf/?user=appjs&repo=appjs) of the stars to the appjs github repo
