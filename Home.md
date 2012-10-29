@@ -10,7 +10,7 @@ With AppJS you can develop desktop tools and applications using the same librari
 * sandboxed code execution environements, virtual machines — by Node.js
 * tools for exposing native C++ bindings to JavaScript — by Node.js
 
-**_IRC: #appjs on freenode , you are welcome !_**
+**_IRC: [#appjs](http://webchat.freenode.net/?channels=#appjs) on freenode. You are welcome !_**
 
 ---
 ### Code samples
