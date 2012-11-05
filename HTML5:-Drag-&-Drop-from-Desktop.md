@@ -14,5 +14,5 @@ window.addEventListener("drop", drop);
 ```
 
 
-Usefull informations here: 
+Useful informations here: 
 http://updates.html5rocks.com/2012/07/Drag-and-drop-a-folder-onto-Chrome-now-available
