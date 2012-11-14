@@ -1,12 +1,15 @@
+This page shows examples of the current app object API. First we show how to open a window:
+
     var window = app.createWindow({
        width  : 1024,
        height : 768,
-       icons  : __dirname + '/content/icons',
-       showChrome : false,
+       icons  : __dirname + '/content/icons', //used for application window icon
+       showChrome : false,                    //display as standard os window with max/min/close buttons
        alpha: true,
        autoResize: false,
        resizable: true,
-       margin: 0
+       margin: 0,
+       disableSecurity:true,
        
        /***************************** defaults ********************************
        * url            : 'http://appjs', // serve static file root and routers
