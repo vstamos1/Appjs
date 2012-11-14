@@ -6,10 +6,10 @@ This page shows examples of the current app object API. First we show how to ope
        icons  : __dirname + '/content/icons', //used for application window icon
        showChrome : false,                    //display as standard os window with max/min/close buttons
        alpha: true,
-       autoResize: false,
-       resizable: true,
+       autoResize: false,            //adjust window size automatically according to content.
+       resizable: true,              //allow user resize of window
        margin: 0,
-       disableSecurity:true,
+       disableSecurity:true,         //turn off security restrictions.
        
        /***************************** defaults ********************************
        * url            : 'http://appjs', // serve static file root and routers
@@ -25,6 +25,8 @@ This page shows examples of the current app object API. First we show how to ope
        *************************************************************************/
     
     });
+
+To create an OS native menu:
 
     var menubar = app.createMenu([{
        label:'&File',
@@ -72,6 +74,8 @@ This page shows examples of the current app object API. First we show how to ope
       console.log("menu item "+item.label+" clicked");
     });
 
+Create a tray menu to be displayed in the status bar:
+
     var trayMenu = app.createMenu([{
       label:'Show',
       action:function(){
@@ -88,6 +92,8 @@ This page shows examples of the current app object API. First we show how to ope
         window.close();
       }
     }]);
+
+Display a status icon
 
     var statusIcon = app.createStatusIcon({
       icon:'./data/content/icons/32.png',
