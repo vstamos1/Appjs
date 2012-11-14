@@ -26,7 +26,7 @@ This page shows examples of the current app object API. First we show how to ope
     
     });
 
-To create an OS native menu:
+Following code gives an example of creating a native menu. Use & to create a shortcut key, so &File will cause Alt+F to select the File menu item on windows, other OS use the appropriate key plus the letter after the & to select it:
 
     var menubar = app.createMenu([{
        label:'&File',
