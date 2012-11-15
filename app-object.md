@@ -10,6 +10,13 @@ This page shows examples of the current app object API. First we show how to ope
        resizable: true,              //allow user resize of window
        margin: 0,
        disableSecurity:true,         //turn off security restrictions.
+       showResizeGrip:false,         //show/hide the resize grip.
+       name:'test',                  //undocumented parameter
+       left:-1,
+       top:-1,
+       opacity:1,
+       fullscreen:false,
+       topmost:false,
        
        /***************************** defaults ********************************
        * url            : 'http://appjs', // serve static file root and routers
