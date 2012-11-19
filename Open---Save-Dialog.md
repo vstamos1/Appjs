@@ -1,4 +1,3 @@
-
     window.frame.openDialog({
         type: 'open', // Either open or save
         title: 'Open...', // Dialog title, default is window title
