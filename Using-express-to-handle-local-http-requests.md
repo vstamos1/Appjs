@@ -44,8 +44,12 @@ appRouter.get('/page/:page_id/posts/:post_id', function(req, res, next){
 // override AppJS's built in request handler with connect
 appjs.router.handle = appRouter.handle.bind(appRouter);
 
-// create window
-var window = appjs.createWindow({
+// have express listen on a port:51686
+appRouter.listen(51686);
+
+// create window with url: http://localhost:51686/ instead of http://appjs/
+var window = appjs.createWindow('http://localhost:51686/',
+ {
   width : 640,
   height: 460,
   icons : __dirname + '/content/icons'
