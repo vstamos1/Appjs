@@ -6,7 +6,7 @@ This page links to applications built by the community and posted to the news gr
 _TiddlyWiki running in appjs_
 
 * (win/mac/linux) __[Creating Your First AppJS App with Custom Chrome](http://www.studiochris.us/2012/creating-your-first-appjs-app-with-custom-chrome/)__
-_Tutorial plus sample project showing different window styles matching different os_
+_Tutorial and github project_
 * (win) __[Task Monitor](https://github.com/composite/appjs/downloads)__
  _CPU Usage, RAM Status and System Uptime_
 
