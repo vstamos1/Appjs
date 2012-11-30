@@ -6,3 +6,5 @@ Task Monitor (https://github.com/composite/appjs/downloads)
 This shows CPU Usage, RAM Status and System Uptime.
 
 
+http://sourceforge.net/projects/quranterjemah/
+software on the Quran where users can read and listen to the Quran being read.
