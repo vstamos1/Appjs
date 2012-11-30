@@ -46,5 +46,13 @@ With AppJS you can develop desktop tools and applications using the same librari
 
 
 ---
+### Community Applications
 
+This page links to applications built by the community and posted to the news group. Post to the [appjs forum](https://groups.google.com/forum/#!forum/appjs-dev) to get your application included in the list.
+
+   * [Community Applications](./wiki/Community-Apps)
+
+---
 [Map view](http://jrvis.com/red-dwarf/?user=appjs&repo=appjs) of the stars to the appjs github repo
+
+# Welcome to AppJS
