@@ -2,14 +2,14 @@ This page links to applications built by the community and posted to the news gr
 
 ---
 
-* __[Task Monitor](https://github.com/composite/appjs/downloads)__
+* (win) __[Task Monitor](https://github.com/composite/appjs/downloads)__
  _CPU Usage, RAM Status and System Uptime_
 
-* __[King James Bible](http://www.kingjamesbiblesociety.org/avbible/download/AvBible_Setup.exe)__
+* (win) __[King James Bible](http://www.kingjamesbiblesociety.org/avbible/download/AvBible_Setup.exe)__
 _Site Specific Browser for King James Bible_
 
-* __[Quran](http://sourceforge.net/projects/quranterjemah/)__
+* (win) __[Quran](http://sourceforge.net/projects/quranterjemah/)__
 _software on the Quran where users can read and listen to the Quran being read_
 
-* __[appjs-TiddlyWiki](https://github.com/sihorton/appjs-TiddlyWiki/downloads)__
+* (win/mac/linux) __[appjs-TiddlyWiki](https://github.com/sihorton/appjs-TiddlyWiki/downloads)__
 _TiddlyWiki running in appjs_
