@@ -11,5 +11,5 @@ _Site Specific Browser for King James Bible_
 * __[Quran](http://sourceforge.net/projects/quranterjemah/)__
 _software on the Quran where users can read and listen to the Quran being read_
 
-* __[appjs-TiddlyWiki](https://github.com/sihorton/appjs-TiddlyWiki/downloads)
+* __[appjs-TiddlyWiki](https://github.com/sihorton/appjs-TiddlyWiki/downloads)__
 _TiddlyWiki running in appjs_
