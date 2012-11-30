@@ -15,3 +15,7 @@ _Site Specific Browser for King James Bible_
 
 * (win) __[Quran](http://sourceforge.net/projects/quranterjemah/)__
 _software on the Quran where users can read and listen to the Quran being read_
+
+* (linux/mac) __[GitGui](http://joeferner.github.com/node-gitgui/)__
+_git client written in appjs__
+
