@@ -1,2 +1,1 @@
-This page links to different applications built by the community that you can try out.
-
+This page links to applications built by the community and posted to the news group. Post to the [appjs forum](https://groups.google.com/forum/#!forum/appjs-dev) to get your application included in the list.
