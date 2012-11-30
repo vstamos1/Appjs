@@ -2,15 +2,14 @@ This page links to applications built by the community and posted to the news gr
 
 ---
 
-Task Monitor (https://github.com/composite/appjs/downloads)
-This shows CPU Usage, RAM Status and System Uptime.
+* __[Task Monitor](https://github.com/composite/appjs/downloads)__
+ _CPU Usage, RAM Status and System Uptime_
 
-http://www.kingjamesbiblesociety.org/avbible/download/AvBible_Setup.exe
-Site Specific Browser for King James Bible
+* __[King James Bible](http://www.kingjamesbiblesociety.org/avbible/download/AvBible_Setup.exe)__
+_Site Specific Browser for King James Bible_
 
-http://sourceforge.net/projects/quranterjemah/
-software on the Quran where users can read and listen to the Quran being read.
+* __[Quran](http://sourceforge.net/projects/quranterjemah/)__
+_software on the Quran where users can read and listen to the Quran being read_
 
-https://github.com/sihorton/appjs-TiddlyWiki/downloads
-TiddlyWiki running in appjs
-
+* __[appjs-TiddlyWiki](https://github.com/sihorton/appjs-TiddlyWiki/downloads)
+_TiddlyWiki running in appjs_
