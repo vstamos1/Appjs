@@ -17,5 +17,5 @@ _Site Specific Browser for King James Bible_
 _software on the Quran where users can read and listen to the Quran being read_
 
 * __[GitGui](http://joeferner.github.com/node-gitgui/)__
-_git client written in appjs__
+_git client written in appjs_
 
