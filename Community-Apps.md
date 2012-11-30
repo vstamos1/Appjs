@@ -5,6 +5,8 @@ This page links to applications built by the community and posted to the news gr
 Task Monitor (https://github.com/composite/appjs/downloads)
 This shows CPU Usage, RAM Status and System Uptime.
 
+http://www.kingjamesbiblesociety.org/avbible/download/AvBible_Setup.exe
+Site Specific Browser for King James Bible
 
 http://sourceforge.net/projects/quranterjemah/
 software on the Quran where users can read and listen to the Quran being read.
