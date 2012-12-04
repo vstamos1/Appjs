@@ -19,3 +19,6 @@ _software on the Quran where users can read and listen to the Quran being read_
 * __[GitGui](http://joeferner.github.com/node-gitgui/)__
 _git client written in appjs_
 
+* __[osx-bootstrap](https://github.com/tmaiaroto/osx-appjs-bootstrap)__
+_osx appjs with twitter bootstrap_
+
