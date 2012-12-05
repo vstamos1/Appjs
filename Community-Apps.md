@@ -26,3 +26,5 @@ _git client written in appjs_
 * __[osx-bootstrap](https://github.com/tmaiaroto/osx-appjs-bootstrap)__
 _osx appjs with twitter bootstrap_
 
+* (win/mac/linux) __[Brackets](https://github.com/milani/brackets)__
+_A fork of Brackets which runs on appjs_
