@@ -8,7 +8,7 @@ _TiddlyWiki running in appjs_
 * (win/mac/linux) __[Creating Your First AppJS App with Custom Chrome](http://www.studiochris.us/2012/creating-your-first-appjs-app-with-custom-chrome/)__
 _Tutorial and github project_
 
-*(win/mac/linux) __[html5 to the ](h: //labs.opinsys.com/blog/2012/11/01/bringing-html5-to-the-desktop-with-appjs/)
+*(win/mac/linux) __[html5 to the  de](h: //labs.opinsys.com/blog/2012/11/01/bringing-html5-to-the-desktop-with-appjs/)
 
 * (win) __[Task Monitor](https://github.com/composite/appjs/downloads)__
  _CPU Usage, RAM Status and System Uptime_
