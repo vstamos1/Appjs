@@ -11,4 +11,9 @@ The first step involves creating a working npm environment that is able to compi
 * Go to [nodejs.org](http://nodejs.org/) and click on the install button to get the latest version of node.
 * Click on the "Node.js Command Prompt" link and then type in:
 
-     npm install -g node-gyp 
+      npm install -g node-gyp 
+* Install python (version 2.7.3 since version 3.* versions are not compatible).
+* Create an environment variable PYTHON = <install directory>\python.exe
+
+### C++ Compiler setup
+This section details using the free visual studio express edition since that is available for all. 
