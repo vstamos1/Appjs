@@ -1,4 +1,4 @@
-Appjs is cross platform (Windows / MacOs / Linux).
+Appjs is cross platform (Windows / MacOs / Linux). 
 
 ## Windows
 
@@ -22,4 +22,8 @@ This section details using the free visual studio express edition since that is 
  * This link is a web installer and it installs a lot of stuff (2.3 gig)
  * install includes .Net Framework 4 and Microsoft SQL Server Compact
 
-For windows 7 64bit architecture you will also need to download and install Microsoft Windows SDK for Windows 7 which is another 1.6 gig.
+* For windows 7 you will also need to download and install Microsoft Windows SDK for Windows 7
+  * Link is another web installer that installs a further 1.6 gig
+  * http://www.microsoft.com/en-us/download/details.aspx?displayLang=en&id=8279
+
+You can run all of the above installers without restarting your machine. Once that is done 
