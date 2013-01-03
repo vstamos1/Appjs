@@ -17,3 +17,7 @@ The first step involves creating a working npm environment that is able to compi
 
 ### C++ Compiler setup
 This section details using the free visual studio express edition since that is available for all. 
+
+* Download the Microsoft Visual Studio C++ 2010 Express (http://go.microsoft.com/?linkid=9709949)
+* * This link is a web installer and it installs a lot of stuff (2.3 gig)
+** install includes .Net Framework 4 and Microsoft SQL Server Compact
