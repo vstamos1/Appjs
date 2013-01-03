@@ -53,11 +53,10 @@ This page links to applications built by the community and posted to the news gr
    * [Community Applications](./wiki/Community-Apps)
 
 ---
-[Map view](http://jrvis.com/red-dwarf/?user=appjs&repo=appjs) of the stars to the appjs github repo
-
----
 ## Building AppJS
  * [Building AppJS](./wiki/Building-Appjs)
 
+---
+[Map view](http://jrvis.com/red-dwarf/?user=appjs&repo=appjs) of the stars to the appjs github repo
 
 # Welcome to AppJS
