@@ -54,7 +54,7 @@ This page links to applications built by the community and posted to the news gr
 
 ---
 ## Building AppJS
- * [Building AppJS](./wiki/Building-Appjs)
+ * [Building AppJS](https://github.com/appjs/appjs/blob/master/docs/building.md)
 
 ---
 [Map view](http://jrvis.com/red-dwarf/?user=appjs&repo=appjs) of the stars to the appjs github repo
