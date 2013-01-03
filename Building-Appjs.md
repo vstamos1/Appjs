@@ -31,6 +31,5 @@ To test for a working environment you can open the nodejs command prompt and ent
      npm install sqlite3
 
 Windows Update will eventually find the visual studio service pack 1 (http://www.microsoft.com/downloads/en/confirmation.aspx?FamilyID=75568aa6-8107-475d-948a-ef22627e57a5), unfortunately this breaks the compiler and so you need to do install a fix:
-* Service Pack 1 Compiler Update - (http://www.microsoft.com/en-us/download/details.aspx?id=4422) VC-Compiler-KB2519277.exe
-
-You can run all of the above installers without restarting your machine. Once you have restarted and run windows update it will eventually find 
+* Service Pack 1 Compiler Update - (VC-Compiler-KB2519277.exe)
+* (http://www.microsoft.com/en-us/download/details.aspx?id=4422) 
