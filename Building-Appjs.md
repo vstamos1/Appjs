@@ -26,10 +26,10 @@ This section details using the free visual studio express edition since that is 
   * Link is another web installer that installs a further 1.6 gig
   * http://www.microsoft.com/en-us/download/details.aspx?displayLang=en&id=8279
 
+* Service Pack 1 can then be installed
+  * http://www.microsoft.com/downloads/en/confirmation.aspx?FamilyID=75568aa6-8107-475d-948a-ef22627e57a5
+  * VC-Compiler-KB2519277.exe (http://www.microsoft.com/en-us/download/details.aspx?id=4422)
+
 To test for a working environment you can open the nodejs command prompt and enter the following:
 
      npm install sqlite3
-
-Windows Update will eventually find the visual studio service pack 1 (http://www.microsoft.com/downloads/en/confirmation.aspx?FamilyID=75568aa6-8107-475d-948a-ef22627e57a5), unfortunately this breaks the compiler and so you need to do install a fix:
-* Service Pack 1 Compiler Update - (VC-Compiler-KB2519277.exe)
-* (http://www.microsoft.com/en-us/download/details.aspx?id=4422) 
