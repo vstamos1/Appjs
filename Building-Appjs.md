@@ -33,3 +33,27 @@ This section details using the free visual studio express edition since that is 
 To test for a working environment you can open the nodejs command prompt and enter the following:
 
      npm install sqlite3
+
+It may give some warnings but as long as it does not show any red colours then it should print something like
+    
+	sqlite3@2.1.5 node_modules\sqlite3
+	
+#### Building Appjs
+
+* git clone https://github.com/appjs/appjs
+  * If you are new to git you can try tortoise git http://code.google.com/p/tortoisegit/wiki/SetupHowTo
+* Download the cef binary from https://github.com/appjs/appjs/downloads
+  * extract to appjs/deps/cef
+  * you can download the 32 bit and 64 bit version and swap between them when compiling for different architectures.
+  * SET npm_config_arch=ia32 to build for 32 bit
+  * SET npm_config_arch=x64 to build for 64 bit.
+* In the "Windows SDK 7.1 Command Prompt"
+  * cd to appjs directory
+  * install node modules:
+      * npm install mime
+  * to build for 32bit on a 64bit machine:
+      * setenv /x86
+	  * SET npm_config_arch=ia32
+  * then in the appjs directory type
+      
+	  node-gyp rebuild > build.log
