@@ -6,3 +6,5 @@ method void org.gnome.ScreenSaver.ShowMessage(QString summary, QString body, QSt
 method void org.gnome.ScreenSaver.SimulateUserActivity()
 
 method void org.gnome.SettingsDaemon.MediaKeys.GrabMediaPlayerKeys(QString application, uint time)
+
+ qdbus --system org.freedesktop.UDisks /org/freedesktop/UDisks/devices/sda5 org.freedesktop.UDisks.Device.PartitionSize
