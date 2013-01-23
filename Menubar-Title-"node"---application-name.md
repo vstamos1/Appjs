@@ -8,11 +8,7 @@ In app.js enter the following line of code at the start of the script
 
 # Mac
 
-Currently there is a long term bug in nodejs that means that the process.title does not work as on other platforms. We suggest that you still add the line to your script so that when the bug is fixed your application will automatically function:
-
-`process.title = 'My Cool Application';`
-
-A smart workaround for now was suggested by Shadab Ahmed (https://github.com/shadabahmed)
+This "should" work cross platform and at some time in the future it will. However currently in Nodejs on Mac this does not work, for example see this forum post: https://groups.google.com/forum/?fromgroups=#!topic/nodejs/3rwMNkkRC60. We suggest you still add the process.title line into your scripts so they work cross platform. However until this is fixed then Shadab Ahmed (https://github.com/shadabahmed) found the following smart workaround:
 
 > You can meanwhile create a soft link to node -> MyAppName and change the sh script to call MyAppName
 
