@@ -3,7 +3,7 @@
         title: 'Open...', // Dialog title, default is window title
         multiSelect: false, // Allows multiple file selection
         dirSelect:true, // Directory selector
-        initialValue:'c:\\Program Files' // Initial save or open file name
+        initialValue:'c:\\Program Files' // Initial save or open file name. Remember to escape backslashes.
     }, function( err , files ) {
         // save the file using fs module according to files array.
     });
