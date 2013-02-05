@@ -80,6 +80,21 @@ Following code gives an example of creating a native menu. Use & to create a sho
     menubar.on('select',function(item){
       console.log("menu item "+item.label+" clicked");
     });
+    
+    // don't forget to attach it to the window!
+    
+    var window = app.createWindow({
+      width  : 640,
+      height : 460,
+      icons  : __dirname + '/content/icons'
+    });
+    
+    window.on('create', function(){
+      console.log("Window Created");
+      window.frame.show();
+      window.frame.center();
+      window.frame.setMenuBar(menubar); // attaching menubar to a new window.
+    });
 
 Create a tray menu to be displayed in the status bar:
 
