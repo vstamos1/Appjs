@@ -100,7 +100,7 @@ Create a tray menu to be displayed in the status bar:
       }
     }]);
 
-Display a status icon
+Display a status icon and attach the `trayMenu` to it.
 
     var statusIcon = app.createStatusIcon({
       icon:'./data/content/icons/32.png',
