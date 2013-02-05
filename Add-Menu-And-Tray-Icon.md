@@ -1,4 +1,4 @@
-These following codes are example how to adding Window Menu and Tray Icon.
+The following codes show how to add a Window Menu and Tray Icon.
 
 ```
 var menubar = app.createMenu([{
