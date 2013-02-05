@@ -7,6 +7,7 @@ The directory tree below shows the default layout of an application.
 * * `content` : This is the web root of your application. The files in here are accessed by the browser. 
 * * `node_modules` : This is where you place any node modules you wish to use in your application. appjs is also a node module so it will be here.
 
+```
     app/
       app.[exe|sh]
       data/
@@ -50,3 +51,4 @@ The directory tree below shows the default layout of an application.
                   chrome.pak
                   locals/
                     ..
+```
