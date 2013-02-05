@@ -71,7 +71,7 @@ var statusIcon = app.createStatusIcon({
 });
 ```
 
-Then set menu bar with declared variable.
+Then set the menu bar with the declared variable.
 ```
 window.on('create', function(){
   console.log("Window Created");
