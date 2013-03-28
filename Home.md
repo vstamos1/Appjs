@@ -17,7 +17,6 @@ With AppJS you can develop desktop tools and applications using the same librari
 ## AppJS and Rich Internet Application frameworks already tested
   * [Qooxdoo](http://www.qooxdoo.org/)
   * [ExtJS/Sencha](http://www.sencha.com/products/extjs)
-  * [Durandal](http://durandaljs.com/)
 
 ## Getting Started
 These are some of the first pages you should read, they're very short and will get you familiar with how simple it is to develop applications with AppJS!
