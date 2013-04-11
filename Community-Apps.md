@@ -28,3 +28,6 @@ _osx appjs with twitter bootstrap_
 
 * (win/mac/linux) __[Brackets](https://github.com/milani/brackets)__
 _A fork of Brackets which runs on appjs_
+
+* (win) __[WorldAddresses](http://www.worldaddresses.com/products/address-lookup/desktop/)__
+_International address lookup client (registration required before download)_
