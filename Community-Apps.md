@@ -31,3 +31,6 @@ _A fork of Brackets which runs on appjs_
 
 * (win) __[WorldAddresses](http://www.worldaddresses.com/products/address-lookup/desktop/)__
 _International address lookup client (registration required before download)_
+
+* (mac) __[Mac_AppMaker](http://drachennetz.com/AppJS_AppMaker.php.txt)__
+_Creates layout for a native mac application_ (beta)
