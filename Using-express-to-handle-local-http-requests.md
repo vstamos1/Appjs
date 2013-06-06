@@ -1,73 +1,58 @@
 ```javascript
-var express = require('express'), // express 2.5.9
+var express = require('express'),
     appjs = require('appjs'),
-    utils = require('util');
-
-// Create express server for routing
-var appRouter = express.createServer();
-appRouter.use(express.bodyParser());
-appRouter.register('jade', require('jade').express);
-
+    utils = require('util'),
+    http = require('http'),
+    path = require('path');
+ 
+// Create express server
+var app = express();
+app.set('port', process.env.PORT || 3000);
+ 
+app.set('views', __dirname + '/content');
+app.set('view engine', 'jade');
+app.use(express.bodyParser());
+app.use(express.static(path.join(__dirname, 'content')));
+ 
 /**
  * Set up the express routes
  */
-appRouter.get('/', function(req, res, next){
-  res.render('index.jade', { layout: false });
+app.get('/', function(req, res, next){
+  res.render('index', { title: 'title' });
 });
-
-appRouter.all('/page/*', function(req, res, next){
-  // User should logged in
-  if (req.LoggedUser) {
-    next();
-  } else {
-    // User is not logged in, stop request and render login page
-    res.status(401).render("login.jade", { layout: false });
-  }
-});
-
-
-// Routing for view posts on a blog page 
-appRouter.get('/page/:page_id/posts/:post_id', function(req, res, next){
-  if (req.params.page_id && req.params.post_id) {
-    var page_id = parseInt(req.params.page_id, 10);
-    var post_id = parseInt(req.params.post_id, 10);
-    res.send(200, "You selected page " + page_id + " and post number " + post_id);
-  } else {
-    res.send(412, "You should select a correct page_id and post_id");
-  }
-});
-
+ 
 /**
  * Setup AppJS
  */
-
+ 
 // override AppJS's built in request handler with connect
-appjs.router.handle = appRouter.handle.bind(appRouter);
-
-// have express listen on a port:51686
-appRouter.listen(51686);
-
-// create window with url: http://localhost:51686/ instead of http://appjs/
-var window = appjs.createWindow('http://localhost:51686/',
+appjs.router.handle = app.handle.bind(app);
+ 
+// have express listen on a port
+http.createServer(app).listen(app.get('port'), function(){
+  console.log('Express server listening on port ' + app.get('port'));
+});
+ 
+var window = appjs.createWindow('http://localhost:' + app.get('port') + '/',
  {
   width : 640,
   height: 460,
   icons : __dirname + '/content/icons'
 });
-
+ 
 // show the window after initialization
 window.on('create', function(){
   window.frame.show();
   window.frame.center();
 });
-
+ 
 // add require/process/module to the window global object for debugging from the DevTools
 window.on('ready', function(){
   window.require = require;
   window.process = process;
   window.module = module;
   window.addEventListener('keydown', function(e){
-    if (e.keyIdentifier === 'F12') {
+    if (e.keyIdentifier === 'F12' || e.keyCode === 74 && e.metaKey && e.altKey) {
       window.frame.openDevTools();
     }
   });
