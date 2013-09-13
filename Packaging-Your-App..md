@@ -22,6 +22,6 @@ Ok. Here's how to do it:
 3. Delete `app.js` and the `content` folder in each of the quickstart examples.
 4. Put a copy of your `content` folder, `app.js`, and any other files you've modified or created, into each of the quickstart examples in the same place they're at in your working copy.
 5. If you've added any node modules to your project you'll need to install them into the quickstart examples as well. Some modules can just be copied and pasted, but others can't be. To be safe it would be best to use the actual operating systems you're going to deploy to, to install the modules you want to add.
-6, Zip up each of your projects, you could even get fancy and use some kind of fancy installer like [IzPack](http://izpack.org/)
+6. Zip up each of your projects, you could even get fancy and use some kind of fancy installer like [IzPack](http://izpack.org/)
 7. Tell people about your app!
 
