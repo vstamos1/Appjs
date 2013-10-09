@@ -41,7 +41,7 @@ There is an [in depth tutorial](http://www.studiochris.us/2012/creating-your-fir
 **Using nodejs, node modules, and javascript in AppJS**
   * [Install and use a third party nodejs module](./wiki/Install-and-use-a-third-party-nodejs-module)
   * [Injecting jQuery into a page and scraping links](./wiki/Injecting-jQuery-into-a-page-and-scraping-links)
-  * [Using express to handle local http requests](./wiki/Using-express-to-handle-local-http-requests)
+  * [Using express to handle local http requests](./wiki/Using-express-3-to-handle-local-http-requests)
 
 
 **Debugging**
