@@ -33,27 +33,27 @@ There is an [in depth tutorial](http://www.studiochris.us/2012/creating-your-fir
 ## Code samples
 
 **Deploying nodejs in AppJS**
-  * [Use DOM events to coordinate execution and using Nodejs's "process" and "require" with the DOM](./wiki/Node's-"process"-and-"require"-in-your-app)
-  * [Adding nodejs's "module", "require", and "process" to the browser global object](./wiki/Add-Node-in-the-browser-global-object)
-  * [Extending nodejs's module system into the browser context](./wiki/Extending-node's-module-system-into-the-browser-context)
-  * [Node's console into Chrome's console](./wiki/Node's-console-into-Chrome's-console)
+  * [Use DOM events to coordinate execution and using Nodejs's "process" and "require" with the DOM](./Node's-"process"-and-"require"-in-your-app)
+  * [Adding nodejs's "module", "require", and "process" to the browser global object](./Add-Node-in-the-browser-global-object)
+  * [Extending nodejs's module system into the browser context](./Extending-node's-module-system-into-the-browser-context)
+  * [Node's console into Chrome's console](./Node's-console-into-Chrome's-console)
 
 **Using nodejs, node modules, and javascript in AppJS**
-  * [Install and use a third party nodejs module](./wiki/Install-and-use-a-third-party-nodejs-module)
-  * [Injecting jQuery into a page and scraping links](./wiki/Injecting-jQuery-into-a-page-and-scraping-links)
-  * [Using express to handle local http requests](./wiki/Using-express-3-to-handle-local-http-requests)
+  * [Install and use a third party nodejs module](./Install-and-use-a-third-party-nodejs-module)
+  * [Injecting jQuery into a page and scraping links](./Injecting-jQuery-into-a-page-and-scraping-links)
+  * [Using express to handle local http requests](./Using-express-3-to-handle-local-http-requests)
 
 
 **Debugging**
-  * [Show Chrome Console with F12 keybind](./wiki/Show-devtools-with-F12-keybind)
+  * [Show Chrome Console with F12 keybind](./Show-devtools-with-F12-keybind)
 
 **Clipboard**
-  * [Copy text in the OS clipboard](./wiki/Clipboard-Copy)
-  * [Paste text in the OS clipboard](./wiki/Clipboard-Paste)
+  * [Copy text in the OS clipboard](./Clipboard-Copy)
+  * [Paste text in the OS clipboard](./Clipboard-Paste)
 
 **HTML5**
-  * [Drag & Drop from desktop](./wiki/HTML5:-Drag-&-Drop-from-Desktop)
-  * [Read local files](./wiki/HTML5:-Read-local-files) (Drag & Drop based)
+  * [Drag & Drop from desktop](./HTML5:-Drag-&-Drop-from-Desktop)
+  * [Read local files](./HTML5:-Read-local-files) (Drag & Drop based)
 
 ## Building AppJS
 If you would like to build AppJS from source, there are directions at [Building AppJS](https://github.com/appjs/appjs/blob/master/docs/building.md)
