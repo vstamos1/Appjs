@@ -55,5 +55,8 @@ There is an [in depth tutorial](http://www.studiochris.us/2012/creating-your-fir
   * [Drag & Drop from desktop](./HTML5:-Drag-&-Drop-from-Desktop)
   * [Read local files](./HTML5:-Read-local-files) (Drag & Drop based)
 
+**Keyboard Events**
+  * [Keyboard Shortcuts to 'select all', 'copy', 'cut', 'paste', 'minimize', 'quit' etc.](./Keyboard-Shortcuts-to-'select-all',-'copy',-'cut',-'paste',-'minimize',-'quit'-etc.)
+
 ## Building AppJS
 If you would like to build AppJS from source, there are directions at [Building AppJS](https://github.com/appjs/appjs/blob/master/docs/building.md)
